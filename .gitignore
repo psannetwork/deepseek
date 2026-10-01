@@ -1,0 +1,8 @@
+debug_info
+.ssh
+twiddle
+deepseek-wasm/
+tokens
+__pycache__/
+*.pyc
+*.pyo

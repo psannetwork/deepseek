@@ -1,0 +1,15 @@
+name: Main Config
+version: 1.0.0
+schema: v1
+models:
+  - name: DeepSeek V3
+    provider: openai
+    model: deepseek-v3
+    apiBase: http://127.0.0.1:4000/v1
+    apiKey: dummy
+    roles:
+      - chat
+      - edit
+      - apply
+    capabilities:
+      - tool_use

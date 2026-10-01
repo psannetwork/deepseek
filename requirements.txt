@@ -1,0 +1,8 @@
+wasmtime
+pygments
+pylatexenc
+appdirs
+term-image
+wcwidth
+toml
+flask

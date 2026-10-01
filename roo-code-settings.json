@@ -1,0 +1,18 @@
+{
+  "providerProfiles": {
+    "currentApiConfigName": "openai-compatible",
+    "apiConfigs": {
+      "openai-compatible": {
+        "id": "openai-compatible-profile-01",
+        "apiProvider": "open-ai-compatible",
+        "openAiCompatibleBaseUrl": "http://localhost:1234/v1",
+        "openAiCompatibleApiKey": "none",
+        "openAiCompatibleModelId": "deepseek-v4"
+      }
+    },
+    "modeApiConfigs": {}
+  },
+  "globalSettings": {
+    "customInstructions": "【CRITICAL RULE: SYSTEM STOPS GENERATION AFTER A TOOL CALL】\n1. Output EXACTLY ONE tool call (XML tag) per response. Never output multiple tool calls in a single turn.\n2. When you issue a tool call, you MUST stop generating text immediately after closing the tool tag (e.g., after </execute_command>, </write_to_file>). Do NOT output any words, punctuation, or markers like 'FINISHED' after the tag.\n3. Wait for the user's execution result before issuing any subsequent commands."
+  }
+}
